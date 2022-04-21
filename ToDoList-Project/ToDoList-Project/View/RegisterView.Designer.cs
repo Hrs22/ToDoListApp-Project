@@ -38,15 +38,9 @@
             this.lbl5 = new System.Windows.Forms.Label();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.dgv1 = new System.Windows.Forms.DataGridView();
-            this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.registerTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.registerDBDataSet = new ToDoList_Project.RegisterDBDataSet();
             this.registerTableTableAdapter = new ToDoList_Project.RegisterDBDataSetTableAdapters.RegisterTableTableAdapter();
-            this.lbl4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.registerTableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.registerDBDataSet)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +49,7 @@
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(284, 19);
+            this.lbl1.Location = new System.Drawing.Point(157, 18);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(144, 47);
             this.lbl1.TabIndex = 0;
@@ -85,6 +79,7 @@
             // 
             this.txtbox2.Location = new System.Drawing.Point(249, 190);
             this.txtbox2.Name = "txtbox2";
+            this.txtbox2.PasswordChar = '*';
             this.txtbox2.Size = new System.Drawing.Size(200, 20);
             this.txtbox2.TabIndex = 4;
             this.txtbox2.TextChanged += new System.EventHandler(this.txtbox2_TextChanged);
@@ -139,38 +134,6 @@
             this.btn2.Text = "Have account? Login now!";
             this.btn2.UseVisualStyleBackColor = false;
             // 
-            // dgv1
-            // 
-            this.dgv1.AutoGenerateColumns = false;
-            this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.usernameDataGridViewTextBoxColumn,
-            this.passwordDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn});
-            this.dgv1.DataSource = this.registerTableBindingSource;
-            this.dgv1.Location = new System.Drawing.Point(475, 190);
-            this.dgv1.Name = "dgv1";
-            this.dgv1.Size = new System.Drawing.Size(357, 218);
-            this.dgv1.TabIndex = 9;
-            // 
-            // usernameDataGridViewTextBoxColumn
-            // 
-            this.usernameDataGridViewTextBoxColumn.DataPropertyName = "username";
-            this.usernameDataGridViewTextBoxColumn.HeaderText = "username";
-            this.usernameDataGridViewTextBoxColumn.Name = "usernameDataGridViewTextBoxColumn";
-            // 
-            // passwordDataGridViewTextBoxColumn
-            // 
-            this.passwordDataGridViewTextBoxColumn.DataPropertyName = "password";
-            this.passwordDataGridViewTextBoxColumn.HeaderText = "password";
-            this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
-            // 
-            // emailDataGridViewTextBoxColumn
-            // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            // 
             // registerTableBindingSource
             // 
             this.registerTableBindingSource.DataMember = "RegisterTable";
@@ -185,24 +148,11 @@
             // 
             this.registerTableTableAdapter.ClearBeforeFill = true;
             // 
-            // lbl4
-            // 
-            this.lbl4.AutoSize = true;
-            this.lbl4.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(540, 80);
-            this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(204, 47);
-            this.lbl4.TabIndex = 10;
-            this.lbl4.Text = "Register log";
-            this.lbl4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // RegisterView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(853, 489);
-            this.Controls.Add(this.lbl4);
-            this.Controls.Add(this.dgv1);
+            this.ClientSize = new System.Drawing.Size(469, 464);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtbox3);
@@ -215,7 +165,6 @@
             this.Name = "RegisterView";
             this.Text = "RegisterView";
             this.Load += new System.EventHandler(this.RegisterView_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.registerTableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.registerDBDataSet)).EndInit();
             this.ResumeLayout(false);
@@ -234,13 +183,8 @@
         private System.Windows.Forms.Label lbl5;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.DataGridView dgv1;
         private RegisterDBDataSet registerDBDataSet;
         private System.Windows.Forms.BindingSource registerTableBindingSource;
         private RegisterDBDataSetTableAdapters.RegisterTableTableAdapter registerTableTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usernameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Label lbl4;
     }
 }

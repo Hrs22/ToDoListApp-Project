@@ -18,3 +18,23 @@ D:\VS\To Do App Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramew
 D:\VS\To Do App Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramework.SqlServer.xml
 D:\VS\To Do App Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList_Project.View.RegisterView.resources
 D:\VS\To Do App Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.CopyComplete
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\Model\RegisterDB.mdf
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\Model\RegisterDB_log.ldf
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\RegisterDB.mdf
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\RegisterDB_log.ldf
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\ToDoList-Project.exe.config
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\ToDoList-Project.exe
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\ToDoList-Project.pdb
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramework.dll
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramework.xml
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.AssemblyReference.cache
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList_Project.Properties.Resources.resources
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList_Project.View.RegisterView.resources
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.GenerateResource.cache
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.CoreCompileInputs.cache
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.csproj.CopyComplete
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.exe
+C:\Users\PC09-204\Source\Repos\ToDoListApp-Project\ToDoList-Project\ToDoList-Project\obj\Debug\ToDoList-Project.pdb
